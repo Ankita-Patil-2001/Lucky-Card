@@ -11,7 +11,7 @@ function AdminData() {
   const [selectedEmail, setSelectedEmail] = useState("");
   const [selectedAdmin, setSelectedAdmin] = useState(null);
   const [gameDetails, setGameDetails] = useState([]); 
-  const [adminId, setAdminId] = useState("");
+  // const [adminId, setAdminId] = useState("");
 
   const checkAuthToken = () => {
     const token = localStorage.getItem("authToken");
